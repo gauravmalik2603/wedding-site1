@@ -3415,10 +3415,10 @@ document.getElementById('rsvp-btn').addEventListener('click', async function () 
 
   const record = {
     name, phone, guests: Number(guests) || guests,
-    arrive_date : document.getElementById('f-arrive-date').value || null,
-    arrive_time : document.getElementById('f-arrive-time').value || null,
+    arrive_date : null,
+    arrive_time : null,
     travel      : document.getElementById('f-travel').value || null,
-    diet        : document.getElementById('f-diet').value || null,
+    diet        : null,
     song        : document.getElementById('f-song').value || null,
     host_side   : 'ladke wale'
   };
